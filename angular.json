@@ -31,7 +31,17 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              {
+                "input": "src/assets/style/language/styles-ar.scss",
+                "bundleName": "arabicStyle",
+                "inject": false
+              },
+              {
+                "input": "src/assets/style/language/styles-en.scss",
+                "bundleName": "englishStyle",
+                "inject": false
+              }
             ],
             "scripts": []
           },
